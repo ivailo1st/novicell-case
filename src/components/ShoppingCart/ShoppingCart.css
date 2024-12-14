@@ -1,0 +1,17 @@
+.cartPage,
+.cartLoading {
+  padding-inline: 5rem;
+}
+
+@media (width <= 1023px) {
+  .productListContainer,
+  .cartLoading {
+    padding-inline: 1rem;
+  }
+}
+
+.cartProduct {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}

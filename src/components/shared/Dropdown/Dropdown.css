@@ -1,0 +1,30 @@
+.dropdownWrapper {
+  position: relative;
+  height: 3rem;
+}
+
+.dropdownButton {
+  position: relative;
+  height: 3rem;
+  background-color: #fff;
+  margin: 0;
+  padding: 0 1rem;
+  border: 0.0625rem solid #000;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  --top-offset: 0;
+  position: absolute;
+  top: var(--top-offset);
+  left: -0.0625rem;
+  border: 0.0625rem solid #000;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  min-width: 7rem;
+  display: flex;
+  flex-direction: column;
+}
